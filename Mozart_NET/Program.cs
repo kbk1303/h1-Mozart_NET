@@ -20,7 +20,7 @@ namespace Mozart_NET
             int dice = -1;
             Random random = new Random();
             /* Loop menuets.GetLength(1) times starting from the first row of both menuets and trios.
-             * It will first play the menuet and then the trio, for the given row. Which column to play in the particular row
+             * It will first play the menuet and then the trio, for the given row. Which row to play in the particular column
              * is deternimed by the throw of 2 dices (random) */
             for (int i = 0; i < menuets.GetLength(1); i++)
             {
